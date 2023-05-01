@@ -14,6 +14,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 // https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
     implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.12'
+    implementation 'org.jsoup:jsoup:1.16.1'
 }
 
 test {
